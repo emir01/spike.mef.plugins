@@ -1,0 +1,6 @@
+@using Spike.PluginSpike.Api.PublicApi.Areas.HelpPage.ModelDescriptions
+@model Spike.PluginSpike.Api.PublicApi.Areas.HelpPage.ModelDescriptions.CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}

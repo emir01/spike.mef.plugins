@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{A00E8724-AF99-4016-B847-2607119A2BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{E08D9E95-2B83-44C6-83D1-B419D47DA554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginManager", "PluginManager", "{C94568FE-683C-43D9-9AB2-2944B4AD9BA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{456C0159-3FDC-497E-8AE3-D6628159B54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginsSpike.InternalApiCaller.ApiB", "SamplePlugins\Spike.PluginsSpike.InternalApiCaller.ApiB\Spike.PluginsSpike.InternalApiCaller.ApiB.csproj", "{B3A84407-0B5F-4C23-A6C9-63AA5B1EE7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginsSpike.InternalApiCaller.ApiA", "SamplePlugins\Spike.PluginsSpike.InternalApiCaller.ApiA\Spike.PluginsSpike.InternalApiCaller.ApiA.csproj", "{7A5775F3-A03C-4F69-8D66-929F180EB5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginSpike.PluginContract", "Spike.PluginSpike.PluginContract\Spike.PluginSpike.PluginContract.csproj", "{FABA3054-32DC-4365-A7EE-11D067092B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginSpike.PluginLoader", "Spike.PluginSpike.PluginLoader\Spike.PluginSpike.PluginLoader.csproj", "{10029056-CDF5-4C33-BEA5-5AD06FFF1291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginSpike.Api.PublicApi", "Api\Spike.PluginSpike.Api.PublicApi\Spike.PluginSpike.Api.PublicApi.csproj", "{B2607101-93EA-426F-9155-7B5C7DEEB0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginSpike.Api.InternalApi.ProcessA", "Api\Spike.PluginSpike.Api.InternalApi.ProcessA\Spike.PluginSpike.Api.InternalApi.ProcessA.csproj", "{E9CED704-5A27-4851-B9A8-45B270A125D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike.PluginSpike.Api.InternalApi.ProcessB", "Api\Spike.PluginSpike.Api.InternalApi.ProcessB\Spike.PluginSpike.Api.InternalApi.ProcessB.csproj", "{082DED57-6E1C-4C23-97CA-374355AB96FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A84407-0B5F-4C23-A6C9-63AA5B1EE7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A84407-0B5F-4C23-A6C9-63AA5B1EE7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A84407-0B5F-4C23-A6C9-63AA5B1EE7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A84407-0B5F-4C23-A6C9-63AA5B1EE7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5775F3-A03C-4F69-8D66-929F180EB5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5775F3-A03C-4F69-8D66-929F180EB5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5775F3-A03C-4F69-8D66-929F180EB5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5775F3-A03C-4F69-8D66-929F180EB5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABA3054-32DC-4365-A7EE-11D067092B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABA3054-32DC-4365-A7EE-11D067092B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABA3054-32DC-4365-A7EE-11D067092B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABA3054-32DC-4365-A7EE-11D067092B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10029056-CDF5-4C33-BEA5-5AD06FFF1291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10029056-CDF5-4C33-BEA5-5AD06FFF1291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10029056-CDF5-4C33-BEA5-5AD06FFF1291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10029056-CDF5-4C33-BEA5-5AD06FFF1291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2607101-93EA-426F-9155-7B5C7DEEB0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2607101-93EA-426F-9155-7B5C7DEEB0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2607101-93EA-426F-9155-7B5C7DEEB0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2607101-93EA-426F-9155-7B5C7DEEB0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9CED704-5A27-4851-B9A8-45B270A125D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9CED704-5A27-4851-B9A8-45B270A125D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9CED704-5A27-4851-B9A8-45B270A125D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9CED704-5A27-4851-B9A8-45B270A125D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082DED57-6E1C-4C23-97CA-374355AB96FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082DED57-6E1C-4C23-97CA-374355AB96FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082DED57-6E1C-4C23-97CA-374355AB96FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082DED57-6E1C-4C23-97CA-374355AB96FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3A84407-0B5F-4C23-A6C9-63AA5B1EE7E7} = {A00E8724-AF99-4016-B847-2607119A2BAA}
+		{7A5775F3-A03C-4F69-8D66-929F180EB5CE} = {A00E8724-AF99-4016-B847-2607119A2BAA}
+		{FABA3054-32DC-4365-A7EE-11D067092B2D} = {C94568FE-683C-43D9-9AB2-2944B4AD9BA0}
+		{10029056-CDF5-4C33-BEA5-5AD06FFF1291} = {C94568FE-683C-43D9-9AB2-2944B4AD9BA0}
+		{B2607101-93EA-426F-9155-7B5C7DEEB0A9} = {456C0159-3FDC-497E-8AE3-D6628159B54F}
+		{E9CED704-5A27-4851-B9A8-45B270A125D3} = {456C0159-3FDC-497E-8AE3-D6628159B54F}
+		{082DED57-6E1C-4C23-97CA-374355AB96FF} = {456C0159-3FDC-497E-8AE3-D6628159B54F}
+	EndGlobalSection
+EndGlobal
