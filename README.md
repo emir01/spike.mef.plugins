@@ -1,5 +1,4 @@
 #spike.mef.plugins
-==
 
 This is the sample project for the following [blog post](http://blog.emirosmanoski.mk/Mef-Plugin-Loading/). 
 
